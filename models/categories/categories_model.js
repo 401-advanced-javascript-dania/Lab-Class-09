@@ -1,9 +1,9 @@
-'use strict';
-const schema=require('./categories_schema.js');
-const Model=require('../model.js');
+
+const schema = require('./categories_schema.js');
+const Model = require('../model.js');
 class Categories extends Model{
-    constructor(){
-        super(schema)
-    }
+  constructor(){
+    super(schema);
+  }
 }
-module.exports=new Categories;
+module.exports = new Categories;
