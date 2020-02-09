@@ -1,4 +1,4 @@
-# LAB - Class 09
+# LAB - Class 10
 
 ## Project Name
 
@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-dania/Lab-Class-09/pull/1)
+- [submission PR]()
 - [ci/cd](https://github.com/401-advanced-javascript-dania/Lab-Class-09/actions)
 - [swagger_hub]()
 

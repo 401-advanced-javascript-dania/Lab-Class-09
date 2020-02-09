@@ -1,4 +1,9 @@
-
+/**
+ *daynamic model
+ *CRUD Method
+ @parameter id or record
+ *@returns this.schema.DBMethode
+ */
 class DataModel{
   constructor(schema){
     this.schema = schema;

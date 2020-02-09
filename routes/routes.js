@@ -5,11 +5,22 @@ const products = require('../models/products/products_model.js');
 const router = express.Router();
 //Define our router
 router.param('model',getModel);
+/**
+ * dyanamicRouter
+ * @RESTRoute
+ * @handlerFunctions
+ */
 router.get('/api/v1/:model/:id',getOneHandler);
 router.get('/api/v1/:model',getHandler);
 router.post('/api/v1/:model',postHandler);
 router.put('/api/v1/:model/:id',updateHandler);
 router.delete('/api/v1/:model/:id',deleteHandler);
+/**
+ *
+ * @param {req.model.CRUDmethod} req
+ * @param {res.json(data)} res
+ * @param {run middleware function if there any} next
+ */
 function getOneHandler(req,res,next){
   let id = req.params.id;
   req.model.get(id)
@@ -49,6 +60,12 @@ function deleteHandler(req,res,next){
     })
     .catch(next);
 }
+/**
+ * daynamic Model
+ * @param {*req.model} req
+ * @param {*} res
+ * @param {*} ne`xt `
+ */
 function getModel(req,res,next){
   let model = req.params.model;
   switch(model){
