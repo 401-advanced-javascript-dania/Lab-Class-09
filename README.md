@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR]()
+- [submission PR](https://github.com/401-advanced-javascript-dania/Lab-Class-09/pull/2)
 - [ci/cd](https://github.com/401-advanced-javascript-dania/Lab-Class-09/actions)
 - [swagger_hub]()
 
@@ -29,4 +29,4 @@ non
 #### UML
 
 Link to an image of the UML for your application and response to events
-- [UML]()
+- [UML](https://github.com/401-advanced-javascript-dania/Lab-Class-09/blob/lab9/IMG_20200204_232953.jpg)
